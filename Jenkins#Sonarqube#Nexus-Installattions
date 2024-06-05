@@ -270,7 +270,7 @@ Phase-3
       4.kubernets,kubernets client api, kubernets credentials, kubernets cli
       5.config file provider
       6.maven integration, maven pipeline integration
-	  
+	 
 	 configure plugins:
 
       1. jdk
@@ -293,6 +293,9 @@ Phase-3
           add installer-> download from docker.com -> docker version :latest
       
 Pipleine Creation--> New item--> Pipeline Name:
+
+	Select Maven package pipeline 
+	
       stages:
           1. Git Checkout
           2. Compile
